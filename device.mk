@@ -37,7 +37,8 @@ PRODUCT_PACKAGES += \
     OnePlus7TProNRFrameworks \
     OnePlus7TProNRSettings \
     OnePlus7TProNRSettingsProvider \
-    OnePlus7TProNRSystemUI
+    OnePlus7TProNRSystemUI \
+    OnePlus7TProNRWifiOverlay
 
 # Display
 PRODUCT_COPY_FILES += \
