@@ -7,7 +7,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, device/oneplus/sm8150-common/common.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/oneplus/hotdog/hotdog-vendor.mk)
+$(call inherit-product, vendor/oneplus/oneplus7tpro/oneplus7tpro-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -30,6 +30,13 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
+
+# Keyboard
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.com.google.ime.kb_pad_port_l=7 \
+    ro.com.google.ime.kb_pad_port_r=7 \
+    ro.com.google.ime.kb_pad_land_l=14 \
+    ro.com.google.ime.kb_pad_land_r=14
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
