@@ -22,7 +22,7 @@ PRODUCT_PACKAGES += \
 
 # fstab
 PRODUCT_PACKAGES += \
-    fstab.qcom_ramdisk
+    fstab.qcom.ramdisk
 
 # Keyboard
 PRODUCT_PRODUCT_PROPERTIES += \
