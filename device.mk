@@ -39,10 +39,6 @@ PRODUCT_PACKAGES += \
     OnePlus7TProSettingsProvider \
     OnePlus7TProSystemUI
 
-# Stock fingerprint for ARCore
-PRODUCT_SYSTEM_PROPERTIES += \
-    ro.stock.build.fingerprint=OnePlus/OnePlus7TPro_EEA/OnePlus7TPro:11/RKQ1.201022.002/2204061354:user/release-keys
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
