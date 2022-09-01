@@ -32,6 +32,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    AOSPAOnePlus7TProFrameworks \
     AOSPAOnePlus7TProSystemUI \
     OnePlus7TProFrameworks \
     OnePlus7TProSettings \
