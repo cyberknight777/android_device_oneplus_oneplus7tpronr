@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="co.aospa.oneplus7tpro">
+    package="android.oneplus7tpronr">
 
     <overlay
         android:isStatic="true"

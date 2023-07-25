@@ -14,7 +14,7 @@ fi
 
 set -e
 
-export DEVICE=oneplus7tpro
+export DEVICE=oneplus7tpronr
 export DEVICE_COMMON=sm8150-common
 export VENDOR=oneplus
 

@@ -6,6 +6,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),oneplus7tpro)
+ifeq ($(TARGET_DEVICE),oneplus7tpronr)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif

@@ -13,7 +13,7 @@
 // limitations under the License.
 
 runtime_resource_overlay {
-    name: "OnePlus7TProSystemUI",
+    name: "AOSPAOnePlus7TProNRSystemUI",
     sdk_version: "current",
-    device_specific: true,
+    system_ext_specific: true,
 }

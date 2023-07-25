@@ -6,7 +6,7 @@
 -include device/oneplus/sm8150-common/BoardConfigCommon.mk
 
 BOARD_VENDOR := oneplus
-DEVICE_PATH := device/oneplus/oneplus7tpro
+DEVICE_PATH := device/oneplus/oneplus7tpronr
 
 # Display
 TARGET_SCREEN_DENSITY := 560

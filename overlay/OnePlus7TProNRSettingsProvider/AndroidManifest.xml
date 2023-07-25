@@ -14,10 +14,10 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="android.oneplus7tpro">
+    package="com.android.providers.settings.oneplus7tpronr">
 
     <overlay
         android:isStatic="true"
         android:priority="800"
-        android:targetPackage="android" />
+        android:targetPackage="com.android.providers.settings" />
 </manifest>

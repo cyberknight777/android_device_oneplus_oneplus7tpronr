@@ -6,7 +6,7 @@
 $(call inherit-product, device/oneplus/sm8150-common/common.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/oneplus/oneplus7tpro/oneplus7tpro-vendor.mk)
+$(call inherit-product, vendor/oneplus/oneplus7tpronr/oneplus7tpronr-vendor.mk)
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -32,12 +32,12 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    AOSPAOnePlus7TProFrameworks \
-    AOSPAOnePlus7TProSystemUI \
-    OnePlus7TProFrameworks \
-    OnePlus7TProSettings \
-    OnePlus7TProSettingsProvider \
-    OnePlus7TProSystemUI
+    AOSPAOnePlus7TProNRFrameworks \
+    AOSPAOnePlus7TProNRSystemUI \
+    OnePlus7TProNRFrameworks \
+    OnePlus7TProNRSettings \
+    OnePlus7TProNRSettingsProvider \
+    OnePlus7TProNRSystemUI
 
 # Display
 PRODUCT_COPY_FILES += \
